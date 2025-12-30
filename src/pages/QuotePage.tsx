@@ -149,7 +149,7 @@ const QuotePage = () => {
             </h1>
             
             <p className="text-xl text-muted-foreground mb-8">
-              Tell us about your GPU requirements and we'll create a tailored solution for your needs
+              Tell us about your GPU requirements and we'll create a tailored solution for your needs tell uss many time
             </p>
           </motion.div>
         </div>

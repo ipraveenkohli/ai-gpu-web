@@ -74,8 +74,8 @@ const ContactPage = () => {
     },
     {
       icon: MapPin,
-      title: "Address",
-      info: "123 Tech Street",
+      title: "Address updated ",
+      info: "123 Tech Street noida strstt",
       subInfo: "San Francisco, CA 94105"
     },
     {

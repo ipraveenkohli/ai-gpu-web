@@ -1,0 +1,26 @@
+name: CI- Build 
+
+On:
+  push:
+    branches:
+      - master
+  pull_request:
+    branches:
+      - master
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: checkout code
+        uses: actions/checkout@v3
+      - name: Steup Node.js
+        uses: actions/steup-node@v3
+        with: 
+          node-version: 20
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: build project
+        run: npm run build  

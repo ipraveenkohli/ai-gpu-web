@@ -63,9 +63,9 @@ const HomePage = () => {
       gradient: "from-purple-500 to-pink-600"
     },
     {
-      name: "RTX 4090",
+      name: "RTX 4090 +2",
       vram: "24GB GDDR6X",
-      performance: "83 TFLOPs",
+      performance: "90 TFLOPs",
       price: "$1.20/hr",
       badge: "Best Value",
       gradient: "from-green-500 to-emerald-600"
@@ -73,7 +73,7 @@ const HomePage = () => {
   ];
 
   const useCases = [
-    { icon: Brain, title: "AI Training", desc: "Large language models & deep learning" },
+    { icon: Brain, title: "AI Training with gpus serves test code ", desc: "Large language models & deep learning" },
     { icon: Gauge, title: "Inference", desc: "Real-time AI model deployment" },
     { icon: BarChart3, title: "Research", desc: "Scientific computing & simulations" },
     { icon: Sparkles, title: "Fine-tuning", desc: "Custom model optimization" }

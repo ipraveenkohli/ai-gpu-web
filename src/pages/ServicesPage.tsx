@@ -47,7 +47,8 @@ const ServicesPage = () => {
         "Auto-scaling capabilities",
         "Load balancing",
         "API endpoint management",
-        "Model versioning"
+        "Model versioning",
+        "Our services is best services in the whole world"
       ],
       gradient: "from-purple-500 to-pink-600"
     },

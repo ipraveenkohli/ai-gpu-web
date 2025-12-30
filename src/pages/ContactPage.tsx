@@ -63,13 +63,13 @@ const ContactPage = () => {
     {
       icon: Mail,
       title: "Email",
-      info: "contact@aigpucloud.com",
-      subInfo: "support@aigpucloud.com"
+      info: "contact@aigpucloudeee.com",
+      subInfo: "support@aigpucloudeee.com"
     },
     {
       icon: Phone,
       title: "Phone",
-      info: "+1 (555) 123-4567",
+      info: "+9185693214700",
       subInfo: "+1 (555) 987-6543"
     },
     {

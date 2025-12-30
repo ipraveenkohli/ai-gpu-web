@@ -20,9 +20,10 @@ jobs:
           username: ${{ secrets.SSH_USER }}
           key: ${{ secrets.SSH_KEY }}
           script: |
-            cd project loaction
+            cd /var/www/ai_gpu_web
             git pull origin master
             npm install
-            npm run build 
+            npm run build
+            sudo systemctl reload nginx
         
 

@@ -2,8 +2,16 @@
 
 A production-ready Node.js application deployed on AWS EC2 using Nginx and CI/CD with GitHub Actions.
 
-## 🚀 Live Demo
-http://<your-ec2-public-ip-or-domain>
+## 🚀 Deployment Status
+
+⚠️ This project uses an **ephemeral deployment model** (test → deploy → destroy).
+For cost optimization and security reasons, the EC2 instance is terminated after testing.
+
+✅ Deployment has been successfully verified using:
+- GitHub Actions CI/CD logs
+- EC2 instance logs
+- Nginx & Node.js runtime logs
+
 
 ## 🛠 Tech Stack
 - Node.js
